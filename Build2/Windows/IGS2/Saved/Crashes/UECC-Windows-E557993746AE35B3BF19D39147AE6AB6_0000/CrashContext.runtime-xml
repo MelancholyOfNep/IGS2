@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>EC07DC6D4B70B2A3EE59C3BBDE149C7C</ExecutionGuid>
+<CrashGUID>UECC-Windows-E557993746AE35B3BF19D39147AE6AB6_0000</CrashGUID>
+<IsEnsure>true</IsEnsure>
+<IsStall>false</IsStall>
+<IsAssert>false</IsAssert>
+<CrashType>Ensure</CrashType>
+<ErrorMessage>Ensure condition failed: this-&gt;IsBound()  [File:D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Delegates\DelegateSignatureImpl.inl] [Line: 1021] 
+Unable to bind delegate to &apos;OnInputOwnerEndPlayed&apos; (function might not be marked as a UFUNCTION or object may be pending kill)
+Stack: 
+0x00007ff792a0b238 IGS2.exe!TSparseDynamicDelegate&lt;FActorEndPlaySignature_MCSignature,AActor,FActorEndPlaySignatureInfoGetter&gt;::__Internal_AddUniqueDynamic&lt;UInputComponent&gt;() []
+0x00007ff792a25bb0 IGS2.exe!UInputComponent::ConditionalBuildKeyMap() []
+0x00007ff793c41e38 IGS2.exe!UPlayerInput::EvaluateInputDelegates() []
+0x00007ff79512f5cc IGS2.exe!UEnhancedPlayerInput::EvaluateInputDelegates() []
+0x00007ff793c8cdf2 IGS2.exe!UPlayerInput::ProcessInputStack() []
+0x00007ff793598f9d IGS2.exe!APlayerController::ProcessPlayerInput() []
+0x00007ff7935b59da IGS2.exe!APlayerController::TickPlayerInput() []
+0x00007ff79359739b IGS2.exe!APlayerController::PlayerTick() []
+0x00007ff7935b43d4 IGS2.exe!APlayerController::TickActor() []
+0x00007ff79244df7c IGS2.exe!FActorTickFunction::ExecuteTick() []
+0x00007ff793add09f IGS2.exe!FTickFunctionTask::DoTask() []
+0x00007ff793ae34e7 IGS2.exe!TGraphTask&lt;FTickFunctionTask&gt;::ExecuteTask() []
+0x00007ff78cf728f7 IGS2.exe!FNamedTaskThread::ProcessTasksNamedThread() []
+0x00007ff78cf72eee IGS2.exe!FNamedTaskThread::ProcessTasksUntilQuit() []
+0x00007ff78cf7db9d IGS2.exe!FTaskGraphCompatibilityImplementation::WaitUntilTasksComplete() []
+0x00007ff793af700e IGS2.exe!FTickTaskSequencer::ReleaseTickGroup() []
+0x00007ff793afcdb4 IGS2.exe!FTickTaskManager::RunTickGroup() []
+0x00007ff793043888 IGS2.exe!UWorld::RunTickGroup() []
+0x00007ff79304cc30 IGS2.exe!UWorld::Tick() []
+0x00007ff792db4c41 IGS2.exe!UGameEngine::Tick() []
+0x00007ff794384313 IGS2.exe!FEngineLoop::Tick() []
+0x00007ff79439c04c IGS2.exe!GuardedMain() []
+0x00007ff79439c12a IGS2.exe!GuardedMainWrapper() []
+0x00007ff79439efd6 IGS2.exe!LaunchWindowsStartup() []
+0x00007ff7943aebc4 IGS2.exe!WinMain() []
+0x00007ff797c3ddca IGS2.exe!__scrt_common_main_seh() [D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+0x00007ffcd1be257d KERNEL32.DLL!UnknownFunction []
+0x00007ffcd232aa58 ntdll.dll!UnknownFunction []
+</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<AttendedStatus>Attended</AttendedStatus>
+<ProcessId>20948</ProcessId>
+<SecondsSinceStart>183</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsWithDebugInfo>false</IsWithDebugInfo>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE-IGS2</GameName>
+<ExecutableName>IGS2</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Windows</PlatformName>
+<PlatformFullName>Windows</PlatformFullName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>5.3.2-29314046+++UE5+Release-5.3</EngineVersion>
+<EngineCompatibleVersion>5.3.2-29314046+++UE5+Release-5.3</EngineCompatibleVersion>
+<CommandLine> IGS2</CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale>en-US</AppDefaultLocale>
+<BuildVersion>++UE5+Release-5.3-CL-29314046</BuildVersion>
+<Symbols>**UE5*Release-5.3-CL-29314046-Win64-Development</Symbols>
+<IsUERelease>false</IsUERelease>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir>C:/Users/Bdavey/Documents/GitHub/IGS2/Build2/Windows/IGS2/Binaries/Win64/</BaseDir>
+<RootDir>C:/Users/Bdavey/Documents/GitHub/IGS2/Build2/Windows/</RootDir>
+<MachineId>B2981B3745419607C6FCE08BEE57C408</MachineId>
+<LoginId>b2981b3745419607c6fce08bee57c408</LoginId>
+<EpicAccountId>e7730347906c463eb91fe81e68f4d690</EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>14</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>20</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>12th Gen Intel(R) Core(TM) i7-12800H</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>Intel(R) UHD Graphics</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 11 (23H2) [10.0.22631.3155]</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>34009374720</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>39109648384</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>19155898368</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>15533109248</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>1176133632</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>1182568448</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>4506136576</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>4506136576</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>7</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+
+IGS2      0x00007ff78c2d0000 + 673b238         
+IGS2      0x00007ff78c2d0000 + 6755bb0         
+IGS2      0x00007ff78c2d0000 + 7971e38         
+IGS2      0x00007ff78c2d0000 + 8e5f5cc         
+IGS2      0x00007ff78c2d0000 + 79bcdf2         
+IGS2      0x00007ff78c2d0000 + 72c8f9d         
+IGS2      0x00007ff78c2d0000 + 72e59da         
+IGS2      0x00007ff78c2d0000 + 72c739b         
+IGS2      0x00007ff78c2d0000 + 72e43d4         
+IGS2      0x00007ff78c2d0000 + 617df7c         
+IGS2      0x00007ff78c2d0000 + 780d09f         
+IGS2      0x00007ff78c2d0000 + 78134e7         
+IGS2      0x00007ff78c2d0000 + ca28f7          
+IGS2      0x00007ff78c2d0000 + ca2eee          
+IGS2      0x00007ff78c2d0000 + cadb9d          
+IGS2      0x00007ff78c2d0000 + 782700e         
+IGS2      0x00007ff78c2d0000 + 782cdb4         
+IGS2      0x00007ff78c2d0000 + 6d73888         
+IGS2      0x00007ff78c2d0000 + 6d7cc30         
+IGS2      0x00007ff78c2d0000 + 6ae4c41         
+IGS2      0x00007ff78c2d0000 + 80b4313         
+IGS2      0x00007ff78c2d0000 + 80cc04c         
+IGS2      0x00007ff78c2d0000 + 80cc12a         
+IGS2      0x00007ff78c2d0000 + 80cefd6         
+IGS2      0x00007ff78c2d0000 + 80debc4         
+IGS2      0x00007ff78c2d0000 + b96ddca         
+KERNEL32  0x00007ffcd1bd0000 + 1257d           
+</PCallStack>
+<PCallStackHash>5A2D5E3A1242F1BD6873B1201EEBA8A47206D1A8</PCallStackHash>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<IsRunningOnBattery>false</IsRunningOnBattery>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+<CrashTrigger>0</CrashTrigger>
+</PlatformProperties>
+<EngineData>
+<MatchingDPStatus>WindowsNo errors</MatchingDPStatus>
+<RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+<RHI.D3DDebug>false</RHI.D3DDebug>
+<RHI.Breadcrumbs>true</RHI.Breadcrumbs>
+<RHI.DRED>false</RHI.DRED>
+<RHI.DREDMarkersOnly>true</RHI.DREDMarkersOnly>
+<RHI.DREDContext>false</RHI.DREDContext>
+<RHI.Aftermath>true</RHI.Aftermath>
+<RHI.RHIName>D3D12</RHI.RHIName>
+<RHI.AdapterName>NVIDIA GeForce RTX 3070 Ti Laptop GPU</RHI.AdapterName>
+<RHI.UserDriverVersion>537.70</RHI.UserDriverVersion>
+<RHI.InternalDriverVersion>31.0.15.3770</RHI.InternalDriverVersion>
+<RHI.DriverDate>10-18-2023</RHI.DriverDate>
+<RHI.FeatureLevel>SM6</RHI.FeatureLevel>
+<RHI.GPUVendor>NVIDIA</RHI.GPUVendor>
+<RHI.DeviceId>24A0</RHI.DeviceId>
+<DeviceProfile.Name>Windows</DeviceProfile.Name>
+<Platform.AppHasFocus>true</Platform.AppHasFocus>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>
